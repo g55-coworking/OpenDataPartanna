@@ -8,6 +8,6 @@ echo '</pre>';
 
 $csv=array_map("str_getcsv", file(__DIR__.'/../data/prova.csv'));
 
-echo '<pre>';
+print '<pre>';
 var_dump($csv); //stampa contenuto
-echo '</pre>';
+print '</pre>';
